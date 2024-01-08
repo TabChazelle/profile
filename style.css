@@ -1,0 +1,57 @@
+body {
+  font-family: Futura, monospace;
+  background-color: #f6ffffda;
+  color: rgb(248, 200, 67);
+  padding: 5px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: Chivo;
+  color: #5e3297;
+}
+
+a {
+  text-decoration: none;
+  color: #c52c9f;
+}
+
+a:hover {
+  background-color: rgb(255, 253, 142);
+  transition: 0.3s;
+  filter: drop-shadow(5px 5px 4px #5e3297);
+}
+
+.card {
+  background-color: #fdfeff;
+  padding: 8px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 2%;
+  border: solid #F1EAFF;
+}
+
+#pic {
+  border-radius: 30%;
+  filter: drop-shadow(5px 5px 4px #5e3297);
+}
+
+
+@media (max-width: 960px) {
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .card {
+    width: 300px;
+  }
+}
